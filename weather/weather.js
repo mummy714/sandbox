@@ -1,3 +1,4 @@
+var url = "";
 function getWeatherData() {
 	
 }

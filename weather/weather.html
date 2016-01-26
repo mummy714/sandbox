@@ -1,10 +1,16 @@
-<html>
+html>
 	<head>
-		<title>Weather Test</title>
-		<script src="jquery-1.12.0.min.js"></script>
-		<script src="weather.js"></script>
+		<title>Test Weather</title>
+		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="weather.js"></script>
 	</head>
 	<body>
-		<h3>Weather Test</h3>
+		<div>Get weather data from wunderground.com</div>
+		<div style=""padding-top: 20px;">
+			<button onclick="getWeatherData()">Get Weather Data!</button>
+		</div>
+		<div>
+			<p id="weatherData"></p>
+		</div>
 	</body>
 </html>
