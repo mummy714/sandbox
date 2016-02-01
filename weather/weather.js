@@ -12,4 +12,10 @@ function getWeatherData() {
 			$('#weatherData')[0].innerHTML = data.minutely.summary;
 		}
 	});
+	/*var xmlhttp = new XMLHttpRequest();
+	xmlhttp.open('GET', url, false);
+	xmlhttp.send();
+
+	var response = JSON.parse(xmlhttp.response);
+	$('#weatherData')[0].innerHTML = response.data.minutely.summary;*/
 }
